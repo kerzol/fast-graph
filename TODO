@@ -1,0 +1,15 @@
+
+Fast graph compression/decompression algorithm(s?)
+ensuring the fast execution of the following operations:
+
+1. Iterate over links
+2. Neigbourghood of a given node
+3. Test if two nodes are adjacent
+
+Also:
+
+1. Algorithm for maximal average degree decomposotion
+2. Algorithm for (approximate) minimal cuts
+3. Use a binary format for graph representation.
+   The binary format will accelerate IO operations,  due to the absence of parsing.
+
