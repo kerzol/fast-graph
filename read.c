@@ -71,15 +71,6 @@ edge* read_graph (char* filename, unsigned long long* n) {
   return (edges);
 }
 
-int my_atoi(char *p) {
-    int k = 0;
-    while (*p) {
-        k = (k<<3)+(k<<1)+(*p)-'0';
-        p++;
-     }
-     return k;
-}
-
 // only for testing purposes
 int main (int argc, char** argv) {
   unsigned long long n;
