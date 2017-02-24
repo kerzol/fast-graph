@@ -50,12 +50,10 @@ int main (int argc, char** argv) {
   int max_iter = atoi(argv[2]);
   madmax_score(gf, max_iter);
   //  dens_subgraph = madmax_densest (X, gf);
-
+  printf ("%ld nodes, %ld edges \n", GS.nodes, GS.edges);
   int i;
   for (i = 0; i < GS.nodes; i++) {
     printf ("%d <== %d\n", X[i], i);
   }
-
-
 }
 

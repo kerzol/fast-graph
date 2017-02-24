@@ -40,7 +40,7 @@ read_graph_iterator (char* filename,
         // count the number of nodes
         if (gs.nodes < one_edge.a)
           gs.nodes = one_edge.a;
-        if (gs.nodes < one_edge.a)
+        if (gs.nodes < one_edge.b)
           gs.nodes = one_edge.b;        
         // and prepare to parse the following
         node_number = 0;
