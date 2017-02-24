@@ -3,11 +3,16 @@
 #define BUFFER_SIZE (16 * 1024)
 #define ALLOCATION_STEP 10000
 
-#include "graph.h"
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
+
+typedef struct {
+  uint32_t a;
+  uint32_t b;
+} edge;
 
 edge* read_graph (char* filename, unsigned long long* n) {
 
