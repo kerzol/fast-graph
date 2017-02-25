@@ -1,17 +1,18 @@
-EXTENSIVE TESTING!!!
+0. EXTENSIVE TESTING!!!
 
-Fast graph compression/decompression algorithm(s?)
-ensuring the fast execution of the following operations:
-
-1. Iterate over links
-2. Neigbourghood of a given node
-3. Test if two nodes are adjacent
+1. Sweep over MADMAX
+2. Binary <-> text format conversion
+   The binary format will accelerate IO operations,
+   due to the absence of parsing.
+3. (Improved) Boldi-Vigna Compression
+4. Fast graph compression/decompression algorithm(s?)
+   ensuring the fast execution of the following operations:
+     a. Iterate over links
+     b. Neigbourghood of a given node
+     c. Test if two nodes are adjacent
+5. Parallel version.
 
 Also:
 
-1. Algorithm for maximal average degree decomposotion
-2. Algorithm for (approximate) minimal cuts.
+1. Algorithm for (approximate) minimal cuts.
    Merge with https://github.com/maxdan94/lp_mincut ?
-3. Use a binary format for graph representation.
-   The binary format will accelerate IO operations,  due to the absence of parsing.
-
