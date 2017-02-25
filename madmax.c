@@ -121,7 +121,7 @@ int main (int argc, char** argv) {
   }
   
   dens_subgraph ds = madmax_densest_subgraph (gf, gs);
-  printf ("Subgraph of density %f contais following nodes: ", ds.density);
+  printf ("Subgraph of density %f contais %lu following nodes: ", ds.density, ds.size);
   for (i = 0; i < ds.size; i++) {
     printf ("%lu ", ds.nodes[i]);
   }
