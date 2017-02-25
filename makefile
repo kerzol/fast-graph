@@ -1,4 +1,4 @@
-CFLAGS=-Wall
+CFLAGS=-Wall -O3
 
 all: madmax read-function
 
