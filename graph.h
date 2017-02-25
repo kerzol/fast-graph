@@ -21,6 +21,7 @@ typedef struct {
 typedef struct {
   double density;
   node* nodes;
+  node_count size;
 } dens_subgraph;
 // contains a list of nodes together with density value
 
@@ -38,5 +39,10 @@ read_graph_iterator (char* filename,
 // do_one_edge_function can be NULL, in this case we do nothing
 // for every edge
 // UWAGA: number of nodes is just a max of nodes' ids  + 1
+
+graph_size get_graph_size (char* filename);
+// Iterates over a graph containing in a file in edge_list format
+//  graph_size.links is a number of links
+//  graph_size.nodes is just a max nodeid + 1
 
 #endif

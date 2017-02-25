@@ -55,4 +55,8 @@ read_graph_iterator (char* filename,
   return gs;
 }
 
+graph_size get_graph_size (char* filename) {
+  return read_graph_iterator (filename, NULL);
+}
+
 
