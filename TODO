@@ -10,7 +10,8 @@
      a. Iterate over links
      b. Neigbourghood of a given node
      c. Test if two nodes are adjacent
-5. Parallel version.
+5. Hypergraphs.
+6. Parallel version.
 
 Also:
 
