@@ -1,17 +1,16 @@
 0. EXTENSIVE TESTING!!!
 
-1. Sweep over MADMAX
-2. Binary <-> text format conversion
+1. Binary <-> text format conversion
    The binary format will accelerate IO operations,
    due to the absence of parsing.
-3. (Improved) Boldi-Vigna Compression
-4. Fast graph compression/decompression algorithm(s?)
+2. (Improved) Boldi-Vigna Compression
+3. Fast graph compression/decompression algorithm(s?)
    ensuring the fast execution of the following operations:
      a. Iterate over links
      b. Neigbourghood of a given node
      c. Test if two nodes are adjacent
-5. Hypergraphs.
-6. Parallel version.
+4. Hypergraphs.
+5. Parallel version.
 
 Also:
 
