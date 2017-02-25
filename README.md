@@ -29,4 +29,4 @@ Also, use `hdparm -Tt /dev/bla-bla-bla` to measure the "physical" limits of your
 ## Toy-test over Zachary Karate Club
 `./madmax graphs/Zachary.txt 100`
 
-##_Stay tuned, amazing [stuff is coming](TODO)!_
+##_Stay tuned, amazing [stuff is coming!](TODO)_
